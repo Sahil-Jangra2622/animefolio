@@ -16,13 +16,13 @@ const Navbar = () => {
           Sahil Jangra
         </motion.span>
         <div className="social">
+          <a href="https://leetcode.com/Sahil_Jangra/" target="_blank" >
+          <img src="/leetcode.png" alt="" style={{height:"30px" , width:"30px"}}/>
+          </a>
           <a href="https://www.linkedin.com/in/sahil-jangra-13a5b2231/" target="_blank">
             <img src="/linkedin.png" alt="" />
           </a>
-          <a href="https://leetcode.com/Sahil_Jangra/" target="blank">
-          <img src="/leetcode.png" alt="" style={{height:"30px" , width:"30px"}}/>
-          </a>
-          <a href="https://github.com/Sahil-Jangra2622" target="blank">
+          <a href="https://github.com/Sahil-Jangra2622" target="_blank">
             <img src="/git.png" alt="" />
           </a>
         </div>

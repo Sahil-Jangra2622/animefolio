@@ -13,7 +13,7 @@ const items = [
   {
     id: 2,
     title: "Daily Doze",
-    img: "https://static.vecteezy.com/system/resources/thumbnails/008/471/381/small/social-live-stream-linear-icon-web-streaming-badge-online-broadcast-news-thin-line-contour-button-symbol-isolated-outline-illustration-png.png",
+    img: "./public/live.jpg",
     desc: "Application which offer the instant & latest news about public, political, social, sports events.Tech used — HTML, CSS, JAVASCRIPT, BOOTSTRAP, REACTJS, and API",
     link:"https://daily-doze.netlify.app/"
   },
@@ -46,7 +46,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <a href={item.link} alt="" target="blank">
+            <a href={item.link} alt="" target="_blank">
             <button>See Demo</button>
             </a>
           </motion.div>

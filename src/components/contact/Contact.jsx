@@ -46,7 +46,11 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let’s work together</motion.h1>
+
+        <motion.h1 variants={variants}>
+          Let’s work together
+          </motion.h1>
+
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>Sahiljangra2622@gmail.com</span>
@@ -67,7 +71,7 @@ const Contact = () => {
           whileInView={{ opacity: 0 }}
           transition={{ delay: 3, duration: 1 }}
         >
-          <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
+          < svg className=".svg" width="90%" height="90%" viewBox="0 0 32.666 32.666">
             <motion.path
               strokeWidth={0.2}
               fill="none"

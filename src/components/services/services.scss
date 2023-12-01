@@ -21,7 +21,7 @@
 
     p {
       font-weight: 200;
-      font-size: 20px;
+      font-size: 15px;
       color: gray;
       text-align: right;
     }
@@ -70,7 +70,7 @@
       }
 
       h1 {
-        font-size: 80px;
+        font-size: 65px;
         font-weight: 100;
 
         @include mobile {
@@ -80,7 +80,7 @@
 
       button {
         width: 300px;
-        height: 100px;
+        height: 90px;
         border-radius: 50px;
         background-color: orange;
         border: none;
@@ -98,7 +98,7 @@
   .listContainer {
     flex: 2;
     display: flex;
-    max-width: 1366px;
+    max-width: 1266px;
     margin: auto;
 
     @include mobile {
@@ -107,7 +107,7 @@
     }
 
     .box {
-      padding: 50px;
+      padding: 45px;
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
@@ -130,6 +130,7 @@
         padding: 10px;
         background-color: orange;
         border: none;
+        border-radius: 10px;
         cursor: pointer;
 
         @include mobile {

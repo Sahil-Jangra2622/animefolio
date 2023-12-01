@@ -7,6 +7,7 @@
   background-color: white;
   color: black;
   
+  
   .bg {
     z-index: 999;
     position: fixed;
@@ -15,6 +16,7 @@
     bottom: 0;
     width: 400px;
     background: white;
+    width:25vw;
 
     @include mobile {
       width: 200px;
